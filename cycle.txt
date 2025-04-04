@@ -1,0 +1,32 @@
+public class cpu{
+  int price;
+  class processor{
+     int cores;
+      string producer;
+processor(int noC,string manu){
+   cores=noC;
+   producer=manu;
+}
+void display(){
+System.out.println("\nprocessor info");
+System.out.println("no.of cores ="+cores);
+System.out.println("manufacturer="+producer+\n");
+}
+}
+static class ram{
+int mem;
+string manuf;
+ram(int memory,string producer){
+mem=memory;
+manuf=producer;
+}
+void display(){
+System.out.println("\nRAM info");
+System.out.println("Memory="+mem+" GB");
+System.out.println("Manufacturer="+manuf+"\n");
+}
+}
+public static void main(String args[]){
+  cpu.ram ob
+
+
